@@ -25,10 +25,10 @@
 ├── build_skills.py
 ├── configs/
 ├── tests/
-├── markitdown/
-├── output/
-└── output_ADS2026/
+└── markitdown/
 ```
+
+`output/`、`output_ADS2026/` 等目录是运行后生成的本地结果，默认不建议提交到 GitHub。
 
 核心脚本：
 
@@ -158,7 +158,7 @@ foreach ($cfg in $configs) {
 }
 ```
 
-ADS2026 的全局 Agent 入口在：
+ADS2026 转换完成后，本地输出目录中的全局 Agent 入口在：
 
 ```text
 output_ADS2026/
@@ -213,7 +213,7 @@ output_ADS2026/DesignEnvironment/EXAMPLES_INDEX.md
 .\.venv\Scripts\python.exe -m unittest discover -s tests -p "test*.py"
 ```
 
-检查输出中是否还残留相对 `.html` 链接：
+检查某个输出目录中是否还残留相对 `.html` 链接，例如：
 
 ```powershell
 rg -n -P "\]\((?!https?://)[^)]*\.html" output_ADS2026
@@ -226,6 +226,5 @@ rg -n -P "\]\((?!https?://)[^)]*\.html" output_ADS2026
 - 默认只处理本地 HTML 文件，不抓取外部网站。
 - 纯锚点、`mailto:`、`javascript:`、外部 `http/https` 链接会被跳过。
 - 页面去重按不含 fragment 的文件路径处理，避免循环链接导致死循环。
-- 输出目录可能很大，不建议默认把大规模转换结果提交到仓库。
+- 输出目录可能很大，且可能包含第三方文档转换结果；默认不要把大规模转换结果提交到仓库。
 - 不要把工具写死到某个 ADS 版本；新增文档源时优先新增 JSON 配置。
-

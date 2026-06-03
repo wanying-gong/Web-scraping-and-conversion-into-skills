@@ -1,0 +1,28 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated conversion outputs
+output/
+output_*/
+
+# Local archives and exported docs
+*.zip
+*.7z
+*.rar
+
+# Local scratch files
+document.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
