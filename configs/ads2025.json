@@ -1,0 +1,177 @@
+{
+  "base_html_dir": "D:\\Program Files\\Keysight\\ADS2025_Update2.3\\de\\python\\docs\\html",
+  "entry_html": "index.html",
+  "output_dir": "D:\\MarkitdownFull\\output",
+  "combined_output": "D:\\MarkitdownFull\\output\\combined_knowledge_base.md",
+  "skip_files": [
+    "genindex.html",
+    "search.html",
+    "py-modindex.html"
+  ],
+  "build_skills": true,
+  "skill_groups": [
+    {
+      "filename": "01_introduction_and_concepts.md",
+      "title": "Introduction, Concepts & How-To",
+      "desc": "ADS Python 入门介绍、许可证说明、嵌入式 Python 用法、核心概念（术语/工作区元素/连接对象/OpenAccess/脚本执行）、以及 How-To 指南（虚拟环境设置、Pytest 使用）。",
+      "when_to_use": "当你需要了解 ADS Python 基础、概念术语、或配置开发环境时",
+      "files": [
+        "pydocs/intro/index.md",
+        "pydocs/intro/licensing.md",
+        "pydocs/intro/embedded.md",
+        "pydocs/intro/extension.md",
+        "pydocs/concepts/index.md",
+        "pydocs/concepts/terminology.md",
+        "pydocs/concepts/workspace_elements.md",
+        "pydocs/concepts/connectivity.md",
+        "pydocs/concepts/openaccess_integration.md",
+        "pydocs/concepts/execution.md",
+        "pydocs/howto/index.md",
+        "pydocs/howto/venv.md",
+        "pydocs/howto/newvenv.md",
+        "pydocs/howto/existingvenv.md",
+        "pydocs/howto/pytest.md"
+      ]
+    },
+    {
+      "filename": "02_api_core_objects.md",
+      "title": "Core API: keysight.ads.de",
+      "desc": "核心 API 参考：Workspace（工作区）、Library（库）、Cell（单元）、View（视图）、CellviewRef（引用）、DesignHierarchy（层级）、DMData、ItemInfo、Points、Collections、AEL 接口。",
+      "when_to_use": "当你需要操作工作区、库、单元格、视图等核心设计对象时",
+      "files": [
+        "pypde/docs/reference/de/index.md",
+        "pypde/docs/reference/de/workspace.md",
+        "pypde/docs/reference/de/library.md",
+        "pypde/docs/reference/de/cell.md",
+        "pypde/docs/reference/de/view.md",
+        "pypde/docs/reference/de/cellviewref.md",
+        "pypde/docs/reference/de/design_hierarchy.md",
+        "pypde/docs/reference/de/dmdata.md",
+        "pypde/docs/reference/de/item_info.md",
+        "pypde/docs/reference/de/points.md",
+        "pypde/docs/reference/de/collections.md",
+        "pypde/docs/reference/de/ael.md"
+      ]
+    },
+    {
+      "filename": "03_api_app_ui.md",
+      "title": "App/UI API: keysight.ads.de.app",
+      "desc": "应用层/UI API：Actions（动作）、Menus（菜单）、Addons（插件）、Callbacks（回调）、Windows/Widgets（窗口控件）、DDS 接口。",
+      "when_to_use": "当你需要创建自定义菜单、窗口、插件、或响应 UI 事件时",
+      "files": [
+        "pypde/docs/reference/de/app/index.md",
+        "pypde/docs/reference/de/app/action.md",
+        "pypde/docs/reference/de/app/addon.md",
+        "pypde/docs/reference/de/app/callbacks.md",
+        "pypde/docs/reference/de/app/window.md",
+        "pypde/docs/reference/de/app/dds.md"
+      ]
+    },
+    {
+      "filename": "04a_api_db_core.md",
+      "title": "Database Core API: keysight.ads.de.db / db_dbu",
+      "desc": "数据库核心 API：Parameter Forms（参数表单）、Parameters（参数）、Properties（属性）、Enums（枚举类型）、Transaction（事务）、GenPolyline（折线）、Model Definition（模型定义）、Callbacks（数据库回调）、DBU 单位系统概览。",
+      "when_to_use": "当你需要读写设计数据库元素、处理参数/属性/枚举/几何图形时",
+      "files": [
+        "pypde/docs/reference/de/db/index.md",
+        "pypde/docs/reference/de/db/callbacks.md",
+        "pypde/docs/reference/de/db/enums.md",
+        "pypde/docs/reference/de/db/forms.md",
+        "pypde/docs/reference/de/db/genpolyline.md",
+        "pypde/docs/reference/de/db/model_def.md",
+        "pypde/docs/reference/de/db/parameters.md",
+        "pypde/docs/reference/de/db/properties.md",
+        "pypde/docs/reference/de/db/transaction.md",
+        "pypde/docs/reference/de/db_dbu/index.md"
+      ]
+    },
+    {
+      "filename": "04b_api_db_uu_elements.md",
+      "title": "Database UU API: keysight.ads.de.db_uu (Design Elements)",
+      "desc": "UU 单位坐标系下的设计元素 API（最底层布局操作）：db_uu 设计元素完整参考、LayerId（图层标识符）、LineTypeInfo（线型信息）。注：此文件内容较多，包含所有布局元素的详细 API 定义。",
+      "when_to_use": "当你需要在 UU 坐标系下直接操作布局元素（矩形、多边形、走线、Pin 等）时",
+      "files": [
+        "pypde/docs/reference/de/db_uu/index.md",
+        "pypde/docs/reference/de/db_uu/db_uu.md",
+        "pypde/docs/reference/de/db_uu/layer_id.md",
+        "pypde/docs/reference/de/db_uu/line_type_info.md"
+      ]
+    },
+    {
+      "filename": "05_api_tech.md",
+      "title": "Tech API: keysight.ads.de.tech",
+      "desc": "技术层 API：Tech 对象（工艺参数）、Padstacks（焊盘叠层）、Via Rules（过孔规则）、Nested Technology（嵌套工艺）。",
+      "when_to_use": "当你需要读取或修改工艺/技术文件、焊盘/过孔定义时",
+      "files": [
+        "pypde/docs/reference/de/tech/index.md",
+        "pypde/docs/reference/de/tech/tech.md",
+        "pypde/docs/reference/de/tech/pads/pads.md",
+        "pypde/docs/reference/de/tech/rule/rule.md",
+        "pypde/docs/reference/de/tech/nested/nested.md"
+      ]
+    },
+    {
+      "filename": "06_api_experimental.md",
+      "title": "Experimental API: keysight.ads.de.experimental",
+      "desc": "实验性 API（不保证向后兼容）：CDF（组件数据格式）、Commands（命令）、Handles（句柄）、Symbol Generator（符号生成器）、ProView、Polygon Utilities（多边形工具）、TextMaker、Preferences（偏好设置）、Netlist Helper（网表工具）。",
+      "when_to_use": "当你需要使用高级/实验性功能，如符号生成、多边形操作、CDF 访问时",
+      "files": [
+        "pypde/docs/reference/de/experimental/index.md",
+        "pypde/docs/reference/de/experimental/cdf/index.md",
+        "pypde/docs/reference/de/experimental/commands.md",
+        "pypde/docs/reference/de/experimental/handles.md",
+        "pypde/docs/reference/de/experimental/symbol.md",
+        "pypde/docs/reference/de/experimental/pro_view.md",
+        "pypde/docs/reference/de/experimental/polygon_utils.md",
+        "pypde/docs/reference/de/experimental/text_maker.md",
+        "pypde/docs/reference/de/experimental/preferences.md",
+        "pypde/docs/reference/de/experimental/netlist_helper.md"
+      ]
+    },
+    {
+      "filename": "07_examples_design.md",
+      "title": "Design Examples (pypde)",
+      "desc": "完整示例代码（23 个）：创建原理图、布局、工作区、仿真+绘图、调用 AEL、CDF 组件参数、模型定义、LPF、属性、自定义菜单/插件、焊盘/过孔、嵌套工艺、规则、放置文字、多边形、PySide2 UI、层级遍历、VAR 变量、XML-RPC、GDS 导入导出。",
+      "when_to_use": "当你需要参考完整的可运行示例代码时",
+      "files": [
+        "pypde/docs/examples/index.md",
+        "pypde/docs/examples/ex_calling_ael_and_python.md",
+        "pypde/docs/examples/ex_create_layout.md",
+        "pypde/docs/examples/ex_create_schematic.md",
+        "pypde/docs/examples/ex_workspace.md",
+        "pypde/docs/examples/ex_create_sim_and_plot.md",
+        "pypde/docs/examples/ex_cdf.md",
+        "pypde/docs/examples/ex_parameters.md",
+        "pypde/docs/examples/ex_itemdef.md",
+        "pypde/docs/examples/ex_model.md",
+        "pypde/docs/examples/ex_lpf.md",
+        "pypde/docs/examples/ex_properties.md",
+        "pypde/docs/examples/ex_menu_addon.md",
+        "pypde/docs/examples/ex_padstack.md",
+        "pypde/docs/examples/ex_nested.md",
+        "pypde/docs/examples/ex_rules.md",
+        "pypde/docs/examples/ex_place_text.md",
+        "pypde/docs/examples/ex_polygon.md",
+        "pypde/docs/examples/ex_pyside.md",
+        "pypde/docs/examples/ex_traversing_hierarchy.md",
+        "pypde/docs/examples/ex_working_with_var.md",
+        "pypde/docs/examples/ex_xml_rpc.md",
+        "pypde/docs/examples/ex_translate_gds.md"
+      ]
+    },
+    {
+      "filename": "08_api_substrate.md",
+      "title": "Substrate API: keysight.ads.subst (pysubst)",
+      "desc": "基板 API：keysight.ads.subst 模块参考 + 示例。包括创建基板（Create Substrate）、带布局的基板（Substrate with Layout）。",
+      "when_to_use": "当你需要创建或操作基板（Substrate）设计时",
+      "files": [
+        "pysubst/docs/index.md",
+        "pysubst/docs/reference/index.md",
+        "pysubst/docs/reference/subst/index.md",
+        "pysubst/docs/examples/index.md",
+        "pysubst/docs/examples/ex_make_substrate.md",
+        "pysubst/docs/examples/ex_substrate_with_layout.md"
+      ]
+    }
+  ]
+}

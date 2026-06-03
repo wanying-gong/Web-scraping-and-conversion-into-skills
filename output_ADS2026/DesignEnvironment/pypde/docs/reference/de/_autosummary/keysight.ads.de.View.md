@@ -1,0 +1,287 @@
+<!-- 来源: pypde\docs\reference\de\_autosummary\keysight.ads.de.View.html -->
+
+[![Logo](../../../../../_static/images/keysight_logo.svg)](http://www.keysight.com/)
+
+* [ADS](../../../../../index.md)
+* [Reference](../../../../../reference.md)
+* [Design Environment](../../index.md)
+* [keysight.ads.de](../index.md)
+* [ADS Workspace Components](../workspace_components.md)
+* View
+
+Advanced Design System 2026 Update 2 (640)
+
+*invert\_colors* Theme
+
+*rate\_review* Feedback
+
+*help\_center* Help
+
+[Contact Keysight](https://www.keysight.com/in/en/contact.html)
+
+About
+
+*menu* Contents
+
+Table of contents
+
+*close*
+
+Contents:
+
+* [Introduction](../../../../../pydocs/intro/index.md)
+* [How-To](../../../../../pydocs/howto/index.md)
+  + [Use Python in the ADS Application](../../../../../pydocs/howto/embedded.md)
+  + [Set Up a Python Virtual Environment](../../../../../pydocs/howto/venv.md)
+  + [Set Up Visual Studio Code for Development](../../../../../pydocs/howto/vscode.md)
+  + [Use Pytest](../../../../../pydocs/howto/pytest.md)
+  + [Enable Python Support For Your Library](../../../../../pydocs/howto/python_integration.md)
+  + [Execute Python Scripts in Different Contexts](../../../../../pydocs/howto/execution.md)
+  + [Export Workspace and Design Objects to Python](../../../../../pydocs/howto/exporter.md)
+  + [Record Actions in ADS as Python Code](../../../../../pydocs/howto/recorder.md)
+  + [Develop a Python Pcell in ADS](../../../../../pydocs/howto/pcell.md)
+* [ADS Concepts](../../../../../pydocs/concepts/index.md)
+  + [Workspace Elements](../../../../../pydocs/concepts/workspace_elements.md)
+  + [Connectivity Objects](../../../../../pydocs/concepts/connectivity.md)
+* [Reference](../../../../../reference.md)
+  + [Deprecated APIs](../../../../../pydocs/py/_generated/deprecations.md)
+  + [Design Environment](../../index.md)
+    - [keysight.ads.de](../index.md)
+      * [ADS Application Environment](../ads_environment.md)
+      * [ADS Workspace Components](../workspace_components.md)
+      * [Design Hierarchy](../design_hierarchy.md)
+      * [Smart Package](../package.md)
+      * [Geometry](../geometry.md)
+      * [Collections](../collections.md)
+      * [Printer](../printer.md)
+    - [keysight.ads.de.ael](../ael.md)
+    - [keysight.ads.de.app](../app/index.md)
+      * [Application](../app/application.md)
+      * [Actions and Menus](../app/action.md)
+      * [Addons](../app/addon.md)
+      * [Window and Design Callbacks](../app/callbacks.md)
+      * [Windows and Widgets](../app/window.md)
+      * [Experimental](../app/experimental.md)
+    - [keysight.ads.de.app.dds](../app/dds.md)
+      * [exec\_python](../app/_autosummary/keysight.ads.de.app.dds.exec_python.md)
+    - [keysight.ads.de.db](../db/index.md)
+      * [Models, Parameters, and Forms](../db/parameters.md)
+      * [Properties](../db/properties.md)
+      * [Preferences](../db/preferences.md)
+      * [Transaction](../db/transaction.md)
+      * [Smart Mount](../db/smart_mount.md)
+      * [Geometry](../db/geometry.md)
+      * [Teardrops](../db/teardrops.md)
+    - [keysight.ads.de.db\_dbu](../db_dbu/index.md)
+      * [DbBox](../db_dbu/_autosummary/keysight.ads.de.db_dbu.DbBox.md)
+    - [keysight.ads.de.db\_uu](../db_uu/index.md)
+      * [Database Objects](../db_uu/database_objects.md)
+      * [Iterators](../db_uu/iterators.md)
+      * [Designs](../db_uu/design.md)
+      * [Teardrops](../db_uu/teardrop.md)
+    - [keysight.ads.de.experimental](../experimental/index.md)
+      * [CDF](../experimental/cdf.md)
+      * [Design Commands](../experimental/commands.md)
+      * [Component Handles](../experimental/handles.md)
+      * [Netlist Utilities](../experimental/netlist_helper.md)
+      * [Polygon Utilities](../experimental/polygon_utils.md)
+      * [xxPro View](../experimental/pro_view.md)
+      * [Symbol Generator](../experimental/symbol.md)
+      * [Text Maker](../experimental/text_maker.md)
+      * [Notebook](../experimental/notebook.md)
+      * [Layer/Purpose Pairs](../experimental/lpp.md)
+    - [keysight.ads.de.tech](../tech/index.md)
+      * [Technology](../tech/tech.md)
+      * [Layers](../tech/layers.md)
+      * [Line Items](../tech/line_items.md)
+      * [Padstacks](../tech/pads.md)
+      * [Rules](../tech/rule.md)
+  + [Substrate](../../../../../pysubst/docs/reference/index.md)
+    - [keysight.ads.subst](../../../../../pysubst/docs/reference/subst/index.md)
+      * [Substrate and Materials](../../../../../pysubst/docs/reference/subst/subst.md)
+* [Examples](../../../../../examples.md)
+  + [Design Environment](../../../examples/index.md)
+    - [Workspace Creation](../../../examples/workspace/ex_workspace.md)
+    - [Design Creation](../../../examples/design_creation/index.md)
+      * [Create Layout](../../../examples/design_creation/ex_create_layout.md)
+      * [Create Schematic](../../../examples/design_creation/ex_create_schematic.md)
+      * [Create, Simulate, and Plot](../../../examples/design_creation/ex_create_sim_and_plot.md)
+    - [Design Elements](../../../examples/design_elements/index.md)
+      * [Placing Text](../../../examples/design_elements/ex_place_text.md)
+      * [Moving Objects](../../../examples/design_elements/ex_move.md)
+      * [Paths, Traces, and Polygons](../../../examples/design_elements/ex_polygon.md)
+      * [Adding Instances to a Design](../../../examples/design_elements/ex_lpf.md)
+      * [Traversing Hierarchy](../../../examples/design_elements/ex_traversing_hierarchy.md)
+      * [Plane Editing](../../../examples/design_elements/ex_plane_editing.md)
+    - [Parameters](../../../examples/parameters/index.md)
+      * [Interoperable Component Parameters](../../../examples/parameters/ex_cdf.md)
+      * [Working with VAR](../../../examples/parameters/ex_working_with_var.md)
+      * [Component Parameters](../../../examples/parameters/ex_parameters.md)
+      * [Creating an Item Definition](../../../examples/parameters/ex_itemdef.md)
+      * [Model Definition Properties](../../../examples/parameters/ex_model.md)
+      * [Creating a Text Form](../../../examples/parameters/ex_text_form.md)
+      * [Properties](../../../examples/parameters/ex_properties.md)
+    - [Technology](../../../examples/technology/index.md)
+      * [Padstacks and Vias](../../../examples/technology/ex_padstack.md)
+      * [Nested Technology](../../../examples/technology/ex_nested.md)
+      * [Rules](../../../examples/technology/ex_rules.md)
+    - [Translators](../../../examples/translators/index.md)
+      * [DXF Import and Export](../../../examples/translators/ex_translate_dxf.md)
+      * [Gerber Export](../../../examples/translators/ex_translate_gbr.md)
+      * [GDSII Import and Export](../../../examples/translators/ex_translate_gds.md)
+    - [UI](../../../examples/ui/index.md)
+      * [Creating Custom Menus Using an Addon](../../../examples/ui/ex_menu_addon.md)
+      * [PySide](../../../examples/ui/ex_pyside.md)
+    - [Utility](../../../examples/utility/index.md)
+      * [Calling Between AEL and Python](../../../examples/utility/ex_calling_ael_and_python.md)
+      * [Smart Package](../../../examples/utility/ex_smart_pkg.md)
+      * [XML RPC](../../../examples/utility/ex_xml_rpc.md)
+  + [Substrate](../../../../../pysubst/docs/examples/index.md)
+    - [Create Substrate](../../../../../pysubst/docs/examples/ex_make_substrate.md)
+    - [Substrate with Layout](../../../../../pysubst/docs/examples/ex_substrate_with_layout.md)
+    - [Z-Height of a Strip Conductor in a Substrate](../../../../../pysubst/docs/examples/ex_substrate_strip_height.md)
+* [Index](../../../../../genindex.md)
+
+# View[](#view "Link to this heading")
+
+*class* View[](#keysight.ads.de.View "Link to this definition")
+:   Bases: [`DMContainer`](keysight.ads.de.DMContainer.md#keysight.ads.de.DMContainer "keysight.ads.de._core.dmfile.DMContainer")
+
+    A view is a specific representation or abstraction of a cell.
+
+    Design views, such as a symbol, schematic, or layout, are encapsulated by the [`Design`](../db_uu/_autosummary/keysight.ads.de.db_uu.Design.md#keysight.ads.de.db_uu.Design "keysight.ads.de.db_uu.Design") class.
+
+    Methods
+
+    |  |  |
+    | --- | --- |
+    | [`create`](#keysight.ads.de.View.create "keysight.ads.de.View.create")(cell, view\_name, view\_type\_name) |  |
+    | [`get`](#keysight.ads.de.View.get "keysight.ads.de.View.get")(cell, view\_name) |  |
+    | [`get_design`](#keysight.ads.de.View.get_design "keysight.ads.de.View.get_design")([mode]) |  |
+    | [`module_name`](#keysight.ads.de.View.module_name "keysight.ads.de.View.module_name")() | Return the full name of the Python module for this View. |
+
+    Attributes
+
+    |  |  |
+    | --- | --- |
+    | [`cell`](#keysight.ads.de.View.cell "keysight.ads.de.View.cell") |  |
+    | [`cell_name`](#keysight.ads.de.View.cell_name "keysight.ads.de.View.cell_name") |  |
+    | [`is_any_verilog_view`](#keysight.ads.de.View.is_any_verilog_view "keysight.ads.de.View.is_any_verilog_view") |  |
+    | [`is_config_view`](#keysight.ads.de.View.is_config_view "keysight.ads.de.View.is_config_view") |  |
+    | [`is_design_view`](#keysight.ads.de.View.is_design_view "keysight.ads.de.View.is_design_view") |  |
+    | [`is_layout_view`](#keysight.ads.de.View.is_layout_view "keysight.ads.de.View.is_layout_view") |  |
+    | [`is_schematic_view`](#keysight.ads.de.View.is_schematic_view "keysight.ads.de.View.is_schematic_view") |  |
+    | [`is_symbol_view`](#keysight.ads.de.View.is_symbol_view "keysight.ads.de.View.is_symbol_view") |  |
+    | [`is_verilog_view`](#keysight.ads.de.View.is_verilog_view "keysight.ads.de.View.is_verilog_view") |  |
+    | [`is_veriloga_view`](#keysight.ads.de.View.is_veriloga_view "keysight.ads.de.View.is_veriloga_view") |  |
+    | [`is_verilogams_view`](#keysight.ads.de.View.is_verilogams_view "keysight.ads.de.View.is_verilogams_view") |  |
+    | [`lcv_name`](#keysight.ads.de.View.lcv_name "keysight.ads.de.View.lcv_name") |  |
+    | [`lib_name`](#keysight.ads.de.View.lib_name "keysight.ads.de.View.lib_name") |  |
+    | [`library`](#keysight.ads.de.View.library "keysight.ads.de.View.library") |  |
+    | [`name`](#keysight.ads.de.View.name "keysight.ads.de.View.name") |  |
+    | [`path`](#keysight.ads.de.View.path "keysight.ads.de.View.path") |  |
+    | [`view_name`](#keysight.ads.de.View.view_name "keysight.ads.de.View.view_name") |  |
+    | [`view_type_name`](#keysight.ads.de.View.view_type_name "keysight.ads.de.View.view_type_name") |  |
+
+    Inherited Methods
+
+    |  |  |
+    | --- | --- |
+    | [`copy_file`](#keysight.ads.de.View.copy_file "keysight.ads.de.View.copy_file")(src\_file\_path[, new\_file\_name]) | Copy a file into the directory for this container (Library, Cell or View). |
+    | [`delete_dm_data`](#keysight.ads.de.View.delete_dm_data "keysight.ads.de.View.delete_dm_data")() | Delete the DM database for this container (Library, Cell or View). |
+    | [`delete_file`](#keysight.ads.de.View.delete_file "keysight.ads.de.View.delete_file")(src\_file\_path) | Delete a file from the directory for this container (Library, Cell or View). |
+    | [`dm_data`](#keysight.ads.de.View.dm_data "keysight.ads.de.View.dm_data")(mode) | Open the DM database for this container (Library, Cell or View). |
+
+    Inherited Attributes
+
+    |  |  |
+    | --- | --- |
+    | [`file_names`](#keysight.ads.de.View.file_names "keysight.ads.de.View.file_names") | A copy of the list of file names in the directory for this container (Library, Cell or View). |
+    | [`has_dm_data`](#keysight.ads.de.View.has_dm_data "keysight.ads.de.View.has_dm_data") | True if this container (Library, Cell or View) has a DM database. |
+
+    *static* get(*cell: [Cell](keysight.ads.de.Cell.md#keysight.ads.de.Cell "keysight.ads.de.Cell")*, *view\_name: str*) → [View](#keysight.ads.de.View "keysight.ads.de.View")[](#keysight.ads.de.View.get "Link to this definition")
+
+    *static* create(*cell: [Cell](keysight.ads.de.Cell.md#keysight.ads.de.Cell "keysight.ads.de.Cell")*, *view\_name: str*, *view\_type\_name: str*) → [View](#keysight.ads.de.View "keysight.ads.de.View")[](#keysight.ads.de.View.create "Link to this definition")
+
+    *property* name*: str*[](#keysight.ads.de.View.name "Link to this definition")
+
+    *property* view\_name*: str*[](#keysight.ads.de.View.view_name "Link to this definition")
+
+    *property* view\_type\_name*: str*[](#keysight.ads.de.View.view_type_name "Link to this definition")
+
+    *property* cell\_name*: str*[](#keysight.ads.de.View.cell_name "Link to this definition")
+
+    *property* lib\_name*: str*[](#keysight.ads.de.View.lib_name "Link to this definition")
+
+    *property* path*: Path*[](#keysight.ads.de.View.path "Link to this definition")
+
+    *property* cell*: [Cell](keysight.ads.de.Cell.md#keysight.ads.de.Cell "keysight.ads.de.Cell")*[](#keysight.ads.de.View.cell "Link to this definition")
+
+    *property* library*: [Library](keysight.ads.de.Library.md#keysight.ads.de.Library "keysight.ads.de.Library")*[](#keysight.ads.de.View.library "Link to this definition")
+
+    *property* lcv\_name*: str*[](#keysight.ads.de.View.lcv_name "Link to this definition")
+
+    *property* is\_schematic\_view*: bool*[](#keysight.ads.de.View.is_schematic_view "Link to this definition")
+
+    *property* is\_layout\_view*: bool*[](#keysight.ads.de.View.is_layout_view "Link to this definition")
+
+    *property* is\_symbol\_view*: bool*[](#keysight.ads.de.View.is_symbol_view "Link to this definition")
+
+    *property* is\_design\_view*: bool*[](#keysight.ads.de.View.is_design_view "Link to this definition")
+
+    *property* is\_config\_view*: bool*[](#keysight.ads.de.View.is_config_view "Link to this definition")
+
+    *property* is\_verilog\_view*: bool*[](#keysight.ads.de.View.is_verilog_view "Link to this definition")
+
+    *property* is\_veriloga\_view*: bool*[](#keysight.ads.de.View.is_veriloga_view "Link to this definition")
+
+    *property* is\_verilogams\_view*: bool*[](#keysight.ads.de.View.is_verilogams_view "Link to this definition")
+
+    *property* is\_any\_verilog\_view*: bool*[](#keysight.ads.de.View.is_any_verilog_view "Link to this definition")
+
+    get\_design(*mode: ~keysight.ads.de.\_pde.db.DesignMode | str = <DesignMode.READ\_ONLY: 0>*) → [Design](../db_uu/_autosummary/keysight.ads.de.db_uu.Design.md#keysight.ads.de.db_uu.Design "keysight.ads.de.db_uu.Design")[](#keysight.ads.de.View.get_design "Link to this definition")
+
+    module\_name() → str[](#keysight.ads.de.View.module_name "Link to this definition")
+    :   Return the full name of the Python module for this View.
+
+        Will raise an exception if this View does not have a Python module.
+
+    copy\_file(*src\_file\_path: Path | str*, *new\_file\_name: str = ''*) → None[](#keysight.ads.de.View.copy_file "Link to this definition")
+    :   Copy a file into the directory for this container (Library, Cell or View).
+
+        If new\_file\_name is specified, it should be a leaf name only.
+        If not specified, the file name will be the same as the source file.
+
+    delete\_dm\_data() → None[](#keysight.ads.de.View.delete_dm_data "Link to this definition")
+    :   Delete the DM database for this container (Library, Cell or View).
+
+    delete\_file(*src\_file\_path: Path | str*) → None[](#keysight.ads.de.View.delete_file "Link to this definition")
+    :   Delete a file from the directory for this container (Library, Cell or View).
+
+    dm\_data(*mode: str*) → [DMData](keysight.ads.de.DMData.md#keysight.ads.de.DMData "keysight.ads.de.DMData")[](#keysight.ads.de.View.dm_data "Link to this definition")
+    :   Open the DM database for this container (Library, Cell or View).
+
+    *property* file\_names*: list[str]*[](#keysight.ads.de.View.file_names "Link to this definition")
+    :   A copy of the list of file names in the directory for this container (Library, Cell or View).
+
+    *property* has\_dm\_data*: bool*[](#keysight.ads.de.View.has_dm_data "Link to this definition")
+    :   True if this container (Library, Cell or View) has a DM database.
+
+On this page
+
+[Previous
+
+Cell](keysight.ads.de.Cell.md)
+[Next
+
+CellviewRef](keysight.ads.de.CellviewRef.md)
+
+* © Keysight Technologies 2000-
+* [Privacy](https://www.keysight.com/in/en/contact/privacy.html)
+* [Terms](https://www.keysight.com/in/en/contact/terms-of-use.html)
+* [Feedback](https://www.keysight.com/in/en/contact/support/site-feedback.html)
+
+Built with [Sphinx](https://www.sphinx-doc.org/) using
+'Rejoice' theme by Keysight
+
+*arrow\_drop\_up*Top

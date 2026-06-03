@@ -1,0 +1,250 @@
+<!-- 来源: pypde\docs\reference\de\db\_autosummary\keysight.ads.de.db.Property.html -->
+
+[![Logo](../../../../../../_static/images/keysight_logo.svg)](http://www.keysight.com/)
+
+* [ADS](../../../../../../index.md)
+* [Reference](../../../../../../reference.md)
+* [Design Environment](../../../index.md)
+* [keysight.ads.de.db](../index.md)
+* [Properties](../properties.md)
+* Property
+
+Advanced Design System 2026 Update 2 (640)
+
+*invert\_colors* Theme
+
+*rate\_review* Feedback
+
+*help\_center* Help
+
+[Contact Keysight](https://www.keysight.com/in/en/contact.html)
+
+About
+
+*menu* Contents
+
+Table of contents
+
+*close*
+
+Contents:
+
+* [Introduction](../../../../../../pydocs/intro/index.md)
+* [How-To](../../../../../../pydocs/howto/index.md)
+  + [Use Python in the ADS Application](../../../../../../pydocs/howto/embedded.md)
+  + [Set Up a Python Virtual Environment](../../../../../../pydocs/howto/venv.md)
+  + [Set Up Visual Studio Code for Development](../../../../../../pydocs/howto/vscode.md)
+  + [Use Pytest](../../../../../../pydocs/howto/pytest.md)
+  + [Enable Python Support For Your Library](../../../../../../pydocs/howto/python_integration.md)
+  + [Execute Python Scripts in Different Contexts](../../../../../../pydocs/howto/execution.md)
+  + [Export Workspace and Design Objects to Python](../../../../../../pydocs/howto/exporter.md)
+  + [Record Actions in ADS as Python Code](../../../../../../pydocs/howto/recorder.md)
+  + [Develop a Python Pcell in ADS](../../../../../../pydocs/howto/pcell.md)
+* [ADS Concepts](../../../../../../pydocs/concepts/index.md)
+  + [Workspace Elements](../../../../../../pydocs/concepts/workspace_elements.md)
+  + [Connectivity Objects](../../../../../../pydocs/concepts/connectivity.md)
+* [Reference](../../../../../../reference.md)
+  + [Deprecated APIs](../../../../../../pydocs/py/_generated/deprecations.md)
+  + [Design Environment](../../../index.md)
+    - [keysight.ads.de](../../index.md)
+      * [ADS Application Environment](../../ads_environment.md)
+      * [ADS Workspace Components](../../workspace_components.md)
+      * [Design Hierarchy](../../design_hierarchy.md)
+      * [Smart Package](../../package.md)
+      * [Geometry](../../geometry.md)
+      * [Collections](../../collections.md)
+      * [Printer](../../printer.md)
+    - [keysight.ads.de.ael](../../ael.md)
+    - [keysight.ads.de.app](../../app/index.md)
+      * [Application](../../app/application.md)
+      * [Actions and Menus](../../app/action.md)
+      * [Addons](../../app/addon.md)
+      * [Window and Design Callbacks](../../app/callbacks.md)
+      * [Windows and Widgets](../../app/window.md)
+      * [Experimental](../../app/experimental.md)
+    - [keysight.ads.de.app.dds](../../app/dds.md)
+      * [exec\_python](../../app/_autosummary/keysight.ads.de.app.dds.exec_python.md)
+    - [keysight.ads.de.db](../index.md)
+      * [Models, Parameters, and Forms](../parameters.md)
+      * [Properties](../properties.md)
+      * [Preferences](../preferences.md)
+      * [Transaction](../transaction.md)
+      * [Smart Mount](../smart_mount.md)
+      * [Geometry](../geometry.md)
+      * [Teardrops](../teardrops.md)
+    - [keysight.ads.de.db\_dbu](../../db_dbu/index.md)
+      * [DbBox](../../db_dbu/_autosummary/keysight.ads.de.db_dbu.DbBox.md)
+    - [keysight.ads.de.db\_uu](../../db_uu/index.md)
+      * [Database Objects](../../db_uu/database_objects.md)
+      * [Iterators](../../db_uu/iterators.md)
+      * [Designs](../../db_uu/design.md)
+      * [Teardrops](../../db_uu/teardrop.md)
+    - [keysight.ads.de.experimental](../../experimental/index.md)
+      * [CDF](../../experimental/cdf.md)
+      * [Design Commands](../../experimental/commands.md)
+      * [Component Handles](../../experimental/handles.md)
+      * [Netlist Utilities](../../experimental/netlist_helper.md)
+      * [Polygon Utilities](../../experimental/polygon_utils.md)
+      * [xxPro View](../../experimental/pro_view.md)
+      * [Symbol Generator](../../experimental/symbol.md)
+      * [Text Maker](../../experimental/text_maker.md)
+      * [Notebook](../../experimental/notebook.md)
+      * [Layer/Purpose Pairs](../../experimental/lpp.md)
+    - [keysight.ads.de.tech](../../tech/index.md)
+      * [Technology](../../tech/tech.md)
+      * [Layers](../../tech/layers.md)
+      * [Line Items](../../tech/line_items.md)
+      * [Padstacks](../../tech/pads.md)
+      * [Rules](../../tech/rule.md)
+  + [Substrate](../../../../../../pysubst/docs/reference/index.md)
+    - [keysight.ads.subst](../../../../../../pysubst/docs/reference/subst/index.md)
+      * [Substrate and Materials](../../../../../../pysubst/docs/reference/subst/subst.md)
+* [Examples](../../../../../../examples.md)
+  + [Design Environment](../../../../examples/index.md)
+    - [Workspace Creation](../../../../examples/workspace/ex_workspace.md)
+    - [Design Creation](../../../../examples/design_creation/index.md)
+      * [Create Layout](../../../../examples/design_creation/ex_create_layout.md)
+      * [Create Schematic](../../../../examples/design_creation/ex_create_schematic.md)
+      * [Create, Simulate, and Plot](../../../../examples/design_creation/ex_create_sim_and_plot.md)
+    - [Design Elements](../../../../examples/design_elements/index.md)
+      * [Placing Text](../../../../examples/design_elements/ex_place_text.md)
+      * [Moving Objects](../../../../examples/design_elements/ex_move.md)
+      * [Paths, Traces, and Polygons](../../../../examples/design_elements/ex_polygon.md)
+      * [Adding Instances to a Design](../../../../examples/design_elements/ex_lpf.md)
+      * [Traversing Hierarchy](../../../../examples/design_elements/ex_traversing_hierarchy.md)
+      * [Plane Editing](../../../../examples/design_elements/ex_plane_editing.md)
+    - [Parameters](../../../../examples/parameters/index.md)
+      * [Interoperable Component Parameters](../../../../examples/parameters/ex_cdf.md)
+      * [Working with VAR](../../../../examples/parameters/ex_working_with_var.md)
+      * [Component Parameters](../../../../examples/parameters/ex_parameters.md)
+      * [Creating an Item Definition](../../../../examples/parameters/ex_itemdef.md)
+      * [Model Definition Properties](../../../../examples/parameters/ex_model.md)
+      * [Creating a Text Form](../../../../examples/parameters/ex_text_form.md)
+      * [Properties](../../../../examples/parameters/ex_properties.md)
+    - [Technology](../../../../examples/technology/index.md)
+      * [Padstacks and Vias](../../../../examples/technology/ex_padstack.md)
+      * [Nested Technology](../../../../examples/technology/ex_nested.md)
+      * [Rules](../../../../examples/technology/ex_rules.md)
+    - [Translators](../../../../examples/translators/index.md)
+      * [DXF Import and Export](../../../../examples/translators/ex_translate_dxf.md)
+      * [Gerber Export](../../../../examples/translators/ex_translate_gbr.md)
+      * [GDSII Import and Export](../../../../examples/translators/ex_translate_gds.md)
+    - [UI](../../../../examples/ui/index.md)
+      * [Creating Custom Menus Using an Addon](../../../../examples/ui/ex_menu_addon.md)
+      * [PySide](../../../../examples/ui/ex_pyside.md)
+    - [Utility](../../../../examples/utility/index.md)
+      * [Calling Between AEL and Python](../../../../examples/utility/ex_calling_ael_and_python.md)
+      * [Smart Package](../../../../examples/utility/ex_smart_pkg.md)
+      * [XML RPC](../../../../examples/utility/ex_xml_rpc.md)
+  + [Substrate](../../../../../../pysubst/docs/examples/index.md)
+    - [Create Substrate](../../../../../../pysubst/docs/examples/ex_make_substrate.md)
+    - [Substrate with Layout](../../../../../../pysubst/docs/examples/ex_substrate_with_layout.md)
+    - [Z-Height of a Strip Conductor in a Substrate](../../../../../../pysubst/docs/examples/ex_substrate_strip_height.md)
+* [Index](../../../../../../genindex.md)
+
+# Property[](#property "Link to this heading")
+
+*class* Property[](#keysight.ads.de.db.Property "Link to this definition")
+:   Bases: `object`
+
+    The base class for all properties.
+
+    These properties live in a database, typically a design, but can also
+    live in DM data files for Library, Cell, and View.
+
+    To add a property to an object, you first choose the class for the Property,
+    then initialize an object on the desired property owner.
+
+    For example:
+    de.db.StringProp.create(inst, “name”, “value”)
+
+    To delete a property use delete\_prop.
+
+    Methods
+
+    |  |  |
+    | --- | --- |
+    | [`delete_prop`](#keysight.ads.de.db.Property.delete_prop "keysight.ads.de.db.Property.delete_prop")() |  |
+    | [`find_prop`](#keysight.ads.de.db.Property.find_prop "keysight.ads.de.db.Property.find_prop")(name) |  |
+    | [`is_app`](#keysight.ads.de.db.Property.is_app "keysight.ads.de.db.Property.is_app")(p) |  |
+    | [`is_boolean`](#keysight.ads.de.db.Property.is_boolean "keysight.ads.de.db.Property.is_boolean")(p) |  |
+    | [`is_double`](#keysight.ads.de.db.Property.is_double "keysight.ads.de.db.Property.is_double")(p) |  |
+    | [`is_double_range`](#keysight.ads.de.db.Property.is_double_range "keysight.ads.de.db.Property.is_double_range")(p) |  |
+    | [`is_enum`](#keysight.ads.de.db.Property.is_enum "keysight.ads.de.db.Property.is_enum")(p) |  |
+    | [`is_float`](#keysight.ads.de.db.Property.is_float "keysight.ads.de.db.Property.is_float")(p) |  |
+    | [`is_float_range`](#keysight.ads.de.db.Property.is_float_range "keysight.ads.de.db.Property.is_float_range")(p) |  |
+    | [`is_hier`](#keysight.ads.de.db.Property.is_hier "keysight.ads.de.db.Property.is_hier")(p) |  |
+    | [`is_int`](#keysight.ads.de.db.Property.is_int "keysight.ads.de.db.Property.is_int")(p) |  |
+    | [`is_int_range`](#keysight.ads.de.db.Property.is_int_range "keysight.ads.de.db.Property.is_int_range")(p) |  |
+    | [`is_string`](#keysight.ads.de.db.Property.is_string "keysight.ads.de.db.Property.is_string")(p) |  |
+    | [`is_time`](#keysight.ads.de.db.Property.is_time "keysight.ads.de.db.Property.is_time")(p) |  |
+    | [`is_time_range`](#keysight.ads.de.db.Property.is_time_range "keysight.ads.de.db.Property.is_time_range")(p) |  |
+
+    Attributes
+
+    |  |  |
+    | --- | --- |
+    | [`name`](#keysight.ads.de.db.Property.name "keysight.ads.de.db.Property.name") |  |
+    | [`owner`](#keysight.ads.de.db.Property.owner "keysight.ads.de.db.Property.owner") |  |
+    | [`props`](#keysight.ads.de.db.Property.props "keysight.ads.de.db.Property.props") |  |
+    | [`type`](#keysight.ads.de.db.Property.type "keysight.ads.de.db.Property.type") |  |
+    | [`value`](#keysight.ads.de.db.Property.value "keysight.ads.de.db.Property.value") |  |
+
+    *property* name*: str*[](#keysight.ads.de.db.Property.name "Link to this definition")
+
+    *property* type*: [PropType](keysight.ads.de._pde.db.PropType.md#keysight.ads.de._pde.db.PropType "keysight.ads.de._pde.db.PropType")*[](#keysight.ads.de.db.Property.type "Link to this definition")
+
+    *property* value*: str*[](#keysight.ads.de.db.Property.value "Link to this definition")
+
+    *property* owner*: OwnerT*[](#keysight.ads.de.db.Property.owner "Link to this definition")
+
+    *property* props*: [NamedReadableCollectionAbc](../../_autosummary/keysight.ads.de._list_like.NamedReadableCollectionAbc.md#keysight.ads.de._list_like.NamedReadableCollectionAbc "keysight.ads.de._list_like.NamedReadableCollectionAbc")[[Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")]*[](#keysight.ads.de.db.Property.props "Link to this definition")
+
+    find\_prop(*name: str*) → [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property") | None[](#keysight.ads.de.db.Property.find_prop "Link to this definition")
+
+    delete\_prop() → None[](#keysight.ads.de.db.Property.delete_prop "Link to this definition")
+
+    *static* is\_int(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[IntProp](keysight.ads.de.db.IntProp.md#keysight.ads.de.db.IntProp "keysight.ads.de.db._prop.IntProp")][](#keysight.ads.de.db.Property.is_int "Link to this definition")
+
+    *static* is\_int\_range(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[IntRangeProp](keysight.ads.de.db.IntRangeProp.md#keysight.ads.de.db.IntRangeProp "keysight.ads.de.db._prop.IntRangeProp")][](#keysight.ads.de.db.Property.is_int_range "Link to this definition")
+
+    *static* is\_float(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[FloatProp](keysight.ads.de.db.FloatProp.md#keysight.ads.de.db.FloatProp "keysight.ads.de.db._prop.FloatProp")][](#keysight.ads.de.db.Property.is_float "Link to this definition")
+
+    *static* is\_float\_range(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[FloatRangeProp](keysight.ads.de.db.FloatRangeProp.md#keysight.ads.de.db.FloatRangeProp "keysight.ads.de.db._prop.FloatRangeProp")][](#keysight.ads.de.db.Property.is_float_range "Link to this definition")
+
+    *static* is\_string(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[StringProp](keysight.ads.de.db.StringProp.md#keysight.ads.de.db.StringProp "keysight.ads.de.db._prop.StringProp")][](#keysight.ads.de.db.Property.is_string "Link to this definition")
+
+    *static* is\_app(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[AppProp](keysight.ads.de.db.AppProp.md#keysight.ads.de.db.AppProp "keysight.ads.de.db._prop.AppProp")][](#keysight.ads.de.db.Property.is_app "Link to this definition")
+
+    *static* is\_double(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[DoubleProp](keysight.ads.de.db.DoubleProp.md#keysight.ads.de.db.DoubleProp "keysight.ads.de.db._prop.DoubleProp")][](#keysight.ads.de.db.Property.is_double "Link to this definition")
+
+    *static* is\_double\_range(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[DoubleRangeProp](keysight.ads.de.db.DoubleRangeProp.md#keysight.ads.de.db.DoubleRangeProp "keysight.ads.de.db._prop.DoubleRangeProp")][](#keysight.ads.de.db.Property.is_double_range "Link to this definition")
+
+    *static* is\_boolean(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[BooleanProp](keysight.ads.de.db.BooleanProp.md#keysight.ads.de.db.BooleanProp "keysight.ads.de.db._prop.BooleanProp")][](#keysight.ads.de.db.Property.is_boolean "Link to this definition")
+
+    *static* is\_hier(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[HierProp](keysight.ads.de.db.HierProp.md#keysight.ads.de.db.HierProp "keysight.ads.de.db._prop.HierProp")][](#keysight.ads.de.db.Property.is_hier "Link to this definition")
+
+    *static* is\_time(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[TimeProp](keysight.ads.de.db.TimeProp.md#keysight.ads.de.db.TimeProp "keysight.ads.de.db._prop.TimeProp")][](#keysight.ads.de.db.Property.is_time "Link to this definition")
+
+    *static* is\_time\_range(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[TimeRangeProp](keysight.ads.de.db.TimeRangeProp.md#keysight.ads.de.db.TimeRangeProp "keysight.ads.de.db._prop.TimeRangeProp")][](#keysight.ads.de.db.Property.is_time_range "Link to this definition")
+
+    *static* is\_enum(*p: [Property](#keysight.ads.de.db.Property "keysight.ads.de.db._prop.Property")*) → TypeGuard[[EnumProp](keysight.ads.de.db.EnumProp.md#keysight.ads.de.db.EnumProp "keysight.ads.de.db._prop.EnumProp")][](#keysight.ads.de.db.Property.is_enum "Link to this definition")
+
+On this page
+
+[Previous
+
+PropIter](keysight.ads.de.db.PropIter.md)
+[Next
+
+StringProp](keysight.ads.de.db.StringProp.md)
+
+* © Keysight Technologies 2000-
+* [Privacy](https://www.keysight.com/in/en/contact/privacy.html)
+* [Terms](https://www.keysight.com/in/en/contact/terms-of-use.html)
+* [Feedback](https://www.keysight.com/in/en/contact/support/site-feedback.html)
+
+Built with [Sphinx](https://www.sphinx-doc.org/) using
+'Rejoice' theme by Keysight
+
+*arrow\_drop\_up*Top

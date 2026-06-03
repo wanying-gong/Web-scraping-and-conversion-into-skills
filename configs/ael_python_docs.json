@@ -1,0 +1,75 @@
+{
+  "base_html_dir": "D:\\Program Files\\Keysight\\ADS2025_Update2.3\\ael\\python\\docs\\html",
+  "entry_html": "index.html",
+  "output_dir": "D:\\MarkitdownFull\\output\\AEL",
+  "combined_output": "D:\\MarkitdownFull\\output\\AEL\\combined_knowledge_base.md",
+  "skip_files": [
+    "genindex.html",
+    "search.html",
+    "py-modindex.html"
+  ],
+  "combined": {
+    "title": "AEL Python Documentation Knowledge Base",
+    "description": "本文件由 MarkItDown 自动转换，BFS 遍历自 Keysight ADS2025 Update 2 AEL Python 文档。"
+  },
+  "build_skills": true,
+  "readme": {
+    "title": "AEL Python Documentation 知识库 — 使用指南",
+    "description": "本知识库来自 Keysight ADS 2025 Update 2 AEL Python HTML 文档，经 MarkItDown 转换并按主题分类整理，专为 AI Agent 按需加载设计。"
+  },
+  "skill_groups": [
+    {
+      "filename": "01_intro.md",
+      "title": "Introduction",
+      "desc": "AEL Python 文档入口、概览和 Python 中使用 AEL 功能的说明。",
+      "when_to_use": "当你需要了解 AEL Python 文档结构或基础使用方式时",
+      "files": [
+        "index.md",
+        "intro/index.md",
+        "intro/usage.md"
+      ]
+    },
+    {
+      "filename": "02_concepts.md",
+      "title": "Concepts",
+      "desc": "AEL 与 Python 互操作、类型转换等核心概念。",
+      "when_to_use": "当你需要理解 AEL/Python 互操作机制或类型转换规则时",
+      "files": [
+        "concepts/index.md",
+        "concepts/ael_interoperability.md",
+        "concepts/ael_type_conversions.md"
+      ]
+    },
+    {
+      "filename": "03_reference.md",
+      "title": "Reference",
+      "desc": "keysight.ads.ael API 参考。",
+      "when_to_use": "当你需要查询 keysight.ads.ael 模块 API 时",
+      "files": [
+        "reference/index.md",
+        "reference/ael.md"
+      ]
+    },
+    {
+      "filename": "04_examples.md",
+      "title": "Examples",
+      "desc": "AEL 与 Python 互相调用的示例。",
+      "when_to_use": "当你需要参考可运行示例或调用模式时",
+      "files": [
+        "examples/index.md",
+        "examples/ex_calling_ael_and_python.md"
+      ]
+    },
+    {
+      "filename": "05_howto.md",
+      "title": "How-To",
+      "desc": "虚拟环境和 Pytest 等开发流程说明。",
+      "when_to_use": "当你需要配置 AEL Python 开发环境或测试流程时",
+      "files": [
+        "howto/index.md",
+        "howto/venv.md",
+        "howto/pytest.md"
+      ]
+    }
+  ]
+}

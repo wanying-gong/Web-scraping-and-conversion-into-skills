@@ -1,0 +1,76 @@
+<!-- 来源: intro\licensing.html -->
+
+[![Logo](../_static/images/keysight_logo.svg)](http://www.keysight.com/)
+
+* [ANN Python Documentation](../index.md)
+* [Introduction](index.md)
+* Licensing
+
+Advanced Design System 2026 Update 2 (640)
+
+*invert\_colors* Theme
+
+*rate\_review* Feedback
+
+*help\_center* Help
+
+[Contact Keysight](https://www.keysight.com/in/en/contact.html)
+
+About
+
+*menu* Contents
+
+Table of contents
+
+*close*
+
+Contents:
+
+* [Introduction](index.md)
+  + Licensing
+  + [Using ANN Functionality in Python](usage.md)
+  + [Using Visual Studio Code](vscode.md)
+* [Reference](../reference/index.md)
+  + [keysight.ads.ann](../reference/ann/index.md)
+    - [AnnSetup](../reference/ann/annsetup.md)
+    - [NeuronActivationFunctionType](../reference/ann/neuronactivationfunctiontype.md)
+    - [OutputActivationFunctionType](../reference/ann/outputactivationfunctiontype.md)
+    - [NetworkTrainingType](../reference/ann/networktrainingtype.md)
+    - [NetworkInitializationMethod](../reference/ann/networkinitializationmethod.md)
+    - [OutputFormat](../reference/ann/outputformat.md)
+    - [ModelerOptimizer](../reference/ann/modeleroptimizer.md)
+* [How-To](../howto/index.md)
+  + [How to Set Up a Python Virtual Environment](../howto/venv.md)
+    - [Creating an ADS based Python virtual environment](../howto/newvenv.md)
+    - [Installing Keysight ADS wheels into an existing Python virtual environment](../howto/existingvenv.md)
+    - [ADS Python Environment Variables](../howto/pyenvvars.md)
+  + [How to Use Pytest](../howto/pytest.md)
+* [Examples](../examples/index.md)
+  + [Basic Extraction and Simulation](../examples/ex_basic.md)
+  + [In-memory Extraction](../examples/ex_inmemory_extraction.md)
+  + [Training with Error Weighting](../examples/ex_training_error_weighting.md)
+
+# Licensing[](#licensing "Link to this heading")
+
+Importing `keysight.ads.ann` pulls a **Harmonic Balance** license. Note that the license is held for the entirety of the Python session and only releases when the Python session ends.
+
+To release the license without closing the current Python session, call `ann.release_module()`. This will release the **Harmonic Balance** license. However, any calls to extract, simulate, or train the module will throw until a license is reacquired. To reacquire the license, call `ann.init_module()`.
+
+On this page
+
+[Previous
+
+Introduction](index.md)
+[Next
+
+Using ANN Functionality in Python](usage.md)
+
+* © Keysight Technologies 2000-
+* [Privacy](https://www.keysight.com/in/en/contact/privacy.html)
+* [Terms](https://www.keysight.com/in/en/contact/terms-of-use.html)
+* [Feedback](https://www.keysight.com/in/en/contact/support/site-feedback.html)
+
+Built with [Sphinx](https://www.sphinx-doc.org/) using
+'Rejoice' theme by Keysight
+
+*arrow\_drop\_up*Top

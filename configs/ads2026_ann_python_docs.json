@@ -1,0 +1,20 @@
+{
+  "base_html_dir": "D:\\Program Files\\Keysight\\ADS2026_Update2.1\\doc\\python\\ann\\html",
+  "entry_html": "index.html",
+  "output_dir": "D:\\MarkitdownFull\\output_ADS2026\\ANN",
+  "combined_output": "D:\\MarkitdownFull\\output_ADS2026\\ANN\\combined_knowledge_base.md",
+  "skip_files": [
+    "genindex.html",
+    "search.html",
+    "py-modindex.html"
+  ],
+  "combined": {
+    "title": "ANN Python Documentation Knowledge Base",
+    "description": "本文件由 MarkItDown 自动转换，BFS 遍历自 Keysight ADS2026 Update 2.1 ANN Python Documentation HTML 文档。"
+  },
+  "build_skills": true,
+  "readme": {
+    "title": "ANN Python Documentation 知识库 — 使用指南",
+    "description": "本知识库来自 Keysight ADS 2026 Update 2.1 ANN Python Documentation HTML 文档，经 MarkItDown 转换并按主题自动分类整理，专为 AI Agent 按需加载设计。"
+  }
+}
